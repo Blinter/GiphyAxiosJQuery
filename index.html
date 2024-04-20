@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+</head>
+<h1 style="margin-bottom: 25px;font-size:100px;">GIPHY PARTY</h1>
+<body style="text-align:center;background-color:darkslategray;color:white;">
+  <div class="controls">
+    <form id="controlForm">
+      <input type="text" id="searchTerm" placeholder="Enter a search term" style="padding:15px;font-size:28px;" />
+      <input type="button" id="search" value="Search Giphy!" style="background-color:black;color:white;padding:15px;font-size:28px;"></input>
+      <input type="button" id="removeImages" value="Remove Images"
+        style="padding:15px;font-size:28px;background-color:red;color:white"></input>
+    </form>
+  </div>
+  <div class="data-container" style="margin-top: 50px;display:flex;flex-wrap: wrap;flex-direction: row;justify-content: space-around;align-items: center;">
+    <img style="width:auto;height:auto;" src="https://media.tenor.com/WzFWkP8Ge2IAAAAM/gifs-sunny-kaushal.gif" />
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
